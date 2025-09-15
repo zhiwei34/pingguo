@@ -1,0 +1,16 @@
+#rojo{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#azul{
+    background-color: rgb(84, 188, 232);
+    width: 400px;
+    height: 400px;
+    
+}
