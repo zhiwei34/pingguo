@@ -1,0 +1,30 @@
+/*Esto es un comentario css*/
+h1{
+    color: red;/*color de la fuente*/
+    font-family: Arial, Helvetica, sans-serif;/*tipo de fuente*/
+    text-align: center;
+    background-color: rgb(200, 205, 50);/*color de fondo*/
+}
+h3{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+p{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    line-height: 25px; /*altura de la línea*/
+}
+ul{
+    list-style-type: disc; /*tipo de viñeta*/
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px; /*altura de la línea*/
+}
+ol{
+    list-style-type: decimal; /*tipo de viñeta*/
+    color: brown;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    line-height: 30px; /*altura de la línea*/
+}
