@@ -1,0 +1,21 @@
+/*titulos: font-family: "Mountains of Christmas", serif;
+p: font-family: "Hachi Maru Pop", cursive;
+*/
+
+.texto{
+    color: red;
+    column-count: 2;
+    column-gap: 50px;
+}
+h1,h2{
+    color: green;
+    font-family: "Mountains of Christmas", serif;
+}
+p{
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 12px;
+}
+.iconos{
+    color: orange;
+    font-size: 50px;
+}

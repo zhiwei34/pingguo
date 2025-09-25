@@ -1,0 +1,22 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 4px -6px 4px rgba(0,0,0,0.6);
+    /*ejeX - ejeY - blur - color*/
+}
+#caja{
+    /*background-color: #7fffd4;*/
+    background: linear-gradient(89deg,#7fffd4 0%, #00fffa 40%);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px;
+    /*box-shadow: 10px 20px 10px black;*/
+    /*ejeX - ejeY - blur - color*/
+    /*border-radius: 20px;*/
+    /*border-radius: 20px 0;*/
+    box-shadow: 6px 56px 50px -44px rgba(0,0,0,0.53);
+    /*border-radius: 20px 0 0;*/
+    border-radius: 71px 34px 54px 46px;
+    border: 16px outset #c74c3b;
+
+}
