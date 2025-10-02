@@ -1,0 +1,37 @@
+#contenedor{
+    border: 1px solid #aaa;
+    margin: auto;
+    width: 60%;
+    height: 500px;
+    background-color: #dddddd;
+    /* position: static; */
+}
+#verde{
+    border: 1px solid #80bc3a;
+    width: 94%;
+    height: 20%;
+    background-color: #98e53e;
+    margin: auto;
+    margin-bottom: 20px;
+    /* position: static; */
+}
+
+#celeste{
+    border: 1px solid #328eb2;
+    width: 94%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #41b8e5;
+    /* position: static; */
+}
+
+#amarillo{
+    border: 1px solid #bcb43a;
+    width: 94%;
+    height: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #e5db3f;
+    /* position: static; */
+}

@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+}
+
+#texto{
+    background: yellow;
+    margin-top: 65px;
+}
+
+#barra{
+    background-color: #cccccc;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    /* le damos forma de botonera */
+    z-index: 100;
+}
