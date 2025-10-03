@@ -3,18 +3,11 @@
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid black;
-    /*margin: 0px;
-    width: 300px;*/
     height: 100px;
     background-color: white;
     justify-content: space-between;
-    /* position: static; */
-    /*position: relative;*/
 }
 #rojo{
-    position: static; 
-    /*top: 100px;*/
-    /*right: 0px;*/
     border: 1px solid black;
     width: 100px;
     height: 100px;
@@ -28,9 +21,6 @@
 }
 
 #azul{
-    position: static; 
-    /*top: 100px;*/
-    /*right: 100px;*/
     border: 1px solid black;
     width: 100px;
     height: 100px;
@@ -44,9 +34,6 @@
 }
 
 #verde{
-    position: static; 
-    /*top: 100px;*/
-    /*right: 200px;*/
     border: 1px solid black;
     width: 100px;
     height: 100px;

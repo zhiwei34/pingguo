@@ -8,16 +8,17 @@
     background-color: white;
     justify-content: flex-end;
     /* position: static; */
-    position: relative;
+    /*position: relative;*/
 }
 #rojo{
-    position: absolute; 
+    /*position: absolute; */
     top: 0px;
-    right: 0px;
+    right: 100px;
     border: 1px solid black;
     width: 100px;
     height: 100px;
     margin: 0px;
+    margin-left: 200px;
     font-size: 20px;
     color: white;
     background-color: #fa1414;
@@ -27,13 +28,14 @@
 }
 
 #azul{
-    position: absolute; 
+    /*position: absolute; */
     top: 100px;
-    right: 0px;
+    right: 100px;
     border: 1px solid black;
     width: 100px;
     height: 100px;
     margin: 0px;
+    margin-left: 200px;
     font-size: 20px;
     color: white;
     background-color: #1e7eeb;
@@ -43,13 +45,14 @@
 }
 
 #verde{
-    position: absolute; 
+    /*position: absolute; */
     top: 200px;
-    right: 0px;
+    right: 100px;
     border: 1px solid black;
     width: 100px;
     height: 100px;
     margin: 0px;
+    margin-left: 200px;
     font-size: 20px;
     color: white;
     background-color: #1cf14d;
