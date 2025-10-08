@@ -1,0 +1,99 @@
+/*base escritorio*/
+body {
+    background-color: #332F29;
+}
+
+.contenedor {
+    max-width: 960px;
+    margin: 0;
+}
+
+header {
+    background-color: #8FA68E;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.holder {
+    background-color: #8FA68E;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #C0392B;
+    width: 18%;
+    height: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    line-height: 3px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    width: 43%;
+    height: 150px;
+    background-color: rgb(240, 220, 140);
+    padding: 20px;
+}
+
+aside {
+    background-color: #a89b3a;
+    width: 25%;
+    padding: 20px;
+}
+
+/* fin base escritorio*/ 
+
+@media screen and (max-width: 600px) {
+    /*base tablet*/
+    body {
+        background-color: #332F29;
+    }
+
+    header {
+        background-color: #8FA68E;
+        padding: 20px;
+    }
+
+    .holder {
+        flex-wrap: wrap;
+    }
+
+    nav {
+        background-color: rgb(240, 220, 140);
+        border-bottom: 2px solid black;
+        width: 100%;
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav ul li a {
+    color: black;
+    }
+
+    main {
+        background-color: #e7e0ac;
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+    aside {
+        background-color: rgb(168, 141, 84);
+        width: 100%;
+        border-bottom: 2px solid black;
+    }
+}

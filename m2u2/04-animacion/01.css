@@ -1,0 +1,14 @@
+.circulo{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    animation-name: MiAnimacion;
+    animation-duration: 4s;
+}
+
+@keyframes MiAnimacion {
+    from {background-color: red;}
+    30% {background-color: blue;}
+    to {background-color: yellow;}
+}
