@@ -1,0 +1,17 @@
+/* Fuentes
+brand: font-family: "Licorice", cursive;
+ */
+
+.accordion-button:not(.collapsed) { 
+    color: #fff;
+    background-color: #1b55f6;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    color: #10bab4;
+    font-family: "Licorice", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
