@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* font-family: "Open Sans", sans-serif; */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: #2e64a1;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+/*19.46*/
+
+nav {
+    background-color: #6da9ed;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 3px 6px;
+    color: white;
+    text-decoration: none;
+}
+
+/*23.02*/
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo {
+    background-color: #4c76a5;
+}
+
+footer {
+    background-color: #ccc;
+    /*cccccc*/
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+/*24.02*/
+
+/* 25.04 vemos elementos centrados: hay un corte y segun la pantalla voy a tener mas o menos espacio en los costados
+25.40 a 27.23 no se ve el video de lo que hace. Luego agrega en transportes.css .holder y en index.html la pseudo-clase: 
+class="holder" en el div del header, nav y main */
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+/*30.12*/
+
+h2 {
+    color: #2e64a1;
+    font-weight: 400;
+}
+
+/* Inicio del home 35.06 */
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+
+.testimonios {
+    width: 25%;
+    /* background-color: orange; */
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*38.08*/
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    background-color: yellow;
+    display: block;
+}
+
+.testimonio .autor {
+    text-align: center;
+    font-size: 10px;
+    background-color: lightcoral;
+    display: block;
+    margin: 12px 0;
+}
+
+/* 39.58*/
+
+/* Fin del home 43.10 */
+
+/* Inicio de nosotros*/
+
+.historia p {
+    font-size: 12px;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    /* background-color: orange; */
+}
+
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: #2e64a1;
+}
+
+.persona h5 {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.persona h6 {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.persona p {
+    font-size: 10px;
+    color: #666;
+}
+
+/* Fin de nosotros */
+
+/* Inicio de servicios 49.52*/
+.servicio {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.servicio .info h4 {
+    color: #2e64a1;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #2e64a1;
+    padding-bottom: 10px;
+}
+
+.servicio .info p {
+    font-size: 13px;
+    /* line-height: 19px; */
+}
+
+.servicio img {
+    max-width: 225px;
+    border-radius: 13px;
+    display: block;
+}
+
+/* 53.12 vemos pseudo-clase para hijos pares e impares*/
+
+.servicio:nth-child(odd) { /*impares*/
+flex-direction: row-reverse;
+}
+
+/* Fin de servicios */
