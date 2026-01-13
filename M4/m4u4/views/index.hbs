@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+{{#if conocido}}
+  <p>Hola {{nombre}}!</p>
+  {{#if esAlto}}
+    <h1>Podés ingresar a este juego</h1>
+      {{/if}}
+    {{#unless esAlto}}
+      <h1>No podés ingresar a este juego</h1>
+    {{/unless}}
+    <a href="/salir">Salir</a>
+{{/if}}
+
+{{#unless conocido}}
+  <p>Ingresá nombre y altura</p>
+  <form action="/ingresar" method="post">
+    <label>Nombre:</label><input type="text" name="nombre"></p>
+    <label>Altura (cm):</label><input type="text" name="altura"></p>
+    <button>ingresar</button>
+  </form>
+{{/unless}}
